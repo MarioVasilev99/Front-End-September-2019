@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(238, 238, 238);
+    max-width: 85em;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 60em;
+}
+
+.article-header,
+.article-section,
+.article-footer {
+    display: inline-block;
+    width: 64%;
+}
+
+.article-sidebar {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+}
