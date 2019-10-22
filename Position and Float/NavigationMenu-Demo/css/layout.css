@@ -1,0 +1,53 @@
+.site {
+    max-width: 60em;
+    margin: 0 auto; 
+}
+
+.site-header .site-title {
+    float: left;
+}
+
+.site-header {
+    padding: 1.0em;
+}
+
+.site-header .site-nav {
+    float: right;
+}
+
+.site-main {
+    padding: 1.0em;
+    width: 60%;
+    float: left;
+}
+
+.site-main img {
+    float: left;
+    width: 10em;
+    height: auto;
+    margin: 0 1.0em 0.2em 0;
+    padding: 0.2em;
+    border: 3px solid black;
+    -webkit-box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.75);
+}
+
+.site-sidebar {
+    padding: 1.0em;
+    padding-left: 0;
+    width: 40%;
+    float: left;
+}
+
+.site-footer {
+    padding: 1.0em;
+    clear: both;
+}
+
+/* Cleaner */
+.cleaner:after {
+    display: block;
+    content: '';
+    clear: both;
+}
