@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.viewport {
+    display: block; 
+    height: 100vw;
+    position: relative;
+    background: rgb(25,92,157);
+    background: linear-gradient(90deg, rgba(25,92,157,1) 0%, rgba(65,202,162,1) 100%);
+}
+
+.viewport:nth-child(even) {
+    background: rgb(169,52,118);
+    background: linear-gradient(90deg, rgba(169,52,118,1) 0%, rgba(210,129,20,1) 100%); 
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#000;
+    width: 25em;
+    overflow: hidden;
+    border-radius: 0.2em;
+    box-shadow: 0 0 1.5rem 0.1em rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease-in;
+}
+
+.card:before {
+    position: relative;
+    display: block;
+    content: '';
+    box-shadow: 0 0 2em 0.2em rgba(0, 0, 0, 0.5) inset;
+    z-index: 10;
+    transition: opacity 0.3s ease-in;
+    pointer-events: none;
+}
+
+.card:hover {
+    transform: translate(-50%, -50%)  scale(1.1);
+}
+
+.card:hover:before {
+    opacity: 0.1;
+}
+
+.card.ar-16x9:before {
+    padding-top: calc( ( 9 / 16 ) * 100%);
+}
+
+.card.ar-9x16:before {
+    padding-top: calc( ( 16 / 9 ) * 100%);
+}
+
+.card .media {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    color: red;
+}   
+
+.card.portrait img {
+    display: block;
+    height: 100%;
+    width: auto;
+}
+
+.card .icon {
+    line-height: 1;
+    position: absolute;
+    color: #FFF;
+    bottom: 1.5em;
+    right: 1.5em;
+}
+
+.card.landscape img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
