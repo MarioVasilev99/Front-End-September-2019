@@ -1,0 +1,76 @@
+@import url("reset.css");
+@import url("typography.css");
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    max-width: 90em;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 15vw;
+    height: 35rem;
+    margin: 3em;
+}
+
+.letter {
+    flex-grow: 0;
+    padding: 1em 2em;
+    margin: 0.2em;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.S{
+    order: 0;
+}
+
+.e{
+    order: 1;
+}
+
+.m{
+    order: 2;
+}
+
+.a{
+    order: 3;
+}
+
+.n{
+    order: 4;
+}
+
+.t{
+    order: 5;
+}
+
+.i{
+    order: 6;
+}
+
+.c{
+    order: 7;
+}
+
+.H{
+    order: 8;
+}
+
+.T{
+    order: 9;
+}
+
+.M{
+    order: 10;
+}
+
+.L{
+    order: 11;
+}
