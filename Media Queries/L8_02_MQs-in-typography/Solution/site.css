@@ -1,0 +1,92 @@
+@import url("reset.css");
+@import url("typography.css");
+
+body {
+    max-width: 84em;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: rgb(238, 238, 238);
+}
+
+img {
+    border: 2px solid #333;
+    padding: 0.3em;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.page-header {
+    flex: 0 1 100%;
+    padding-bottom: 1.0rem;
+}
+
+.page-title {
+    font-weight: bold;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.page-header {
+    border-bottom: 2px solid black;
+}
+
+
+@media ( min-width: 801px ) {
+    
+    .page-main .first-pic {
+        float: right;
+        margin: 0 0 1.5em 1.5em;
+        width: 15%;
+        height: auto;
+    }
+    
+    .page-main .second-pic {
+        float: left;
+        margin: 0 1.2em 0.5em 0;
+        width: 20%;
+        height: auto;
+    }
+    
+}
+
+@media ( max-width: 800px ) {
+    .page {
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .page-main article {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .page-main p {
+        flex: 1 1 100%;
+    }
+
+    .page-main header {
+        flex: 1 1 100%;
+    }
+
+
+    .page-main .first-pic {
+        flex: 0 1 50%;
+        height: auto;
+    }
+
+    .page-main .second-pic {
+        height: 20%;
+        width: auto;
+    }
+
+    .first-pic,
+    .second-pic {
+        margin-bottom: 1.0em;
+    }
+    
+}
