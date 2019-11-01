@@ -5,7 +5,6 @@
 .site-nav ul {
     padding: 0;
     margin: 0;
-    background-color: #333;
 }
 
 .site-nav ul ul li a {
@@ -29,6 +28,10 @@
     background: #090;
 }
 
+.site-nav-label {
+    display: none;
+}
+
 .site-nav-toggle + .site-header .site-nav-label .open { display: block; }
 .site-nav-toggle + .site-header .site-nav-label .close { display: none; }
 
@@ -37,6 +40,10 @@
 
 .site-nav-toggle:checked + .site-header .site-nav { display: block; }
 
+.site-nav-toggle:checked + .site-header .site-nav-label {
+    position: relative;
+    z-index: 10;
+}
 
 .site > input {
     display: block;
@@ -46,6 +53,14 @@
 }
 
 @media ( max-width: 900px ) {
+    .site-nav-label {
+        display: block;
+        background-color: #090;
+        color: #FFF;
+        border-radius: 0.3em;
+        padding: 0.5em 1em;
+    }
+
     .site-header {
         display: flex;
         align-items: center;
@@ -54,13 +69,25 @@
         flex-wrap: wrap;
     }
 
-    .site-nav {
-        width: 100%;
-        flex: 1 0 100%;
+    .site-nav-toggle:checked + .site-header .site-nav {
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #FFF;
+    }
+
+    .site-nav > ul {
+       background: #FFF;
+    }
+
+    .site-nav ul li a {
+        color: #000;
     }
 }
 
-@media ( min-width: 900px ) {
+@media ( min-width: 901px ) {
 
     .site-nav {
         display: block;
@@ -86,6 +113,7 @@
 
     .site-nav li {
         position: relative;
+        background-color: #333;
     }
 
     .site-nav li:hover > ul {
