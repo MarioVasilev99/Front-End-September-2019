@@ -1,0 +1,235 @@
+.site-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(249, 55, 0);
+    padding-top: 1em;
+    padding-left: 2em;
+    text-align: center;
+}
+
+.site-main {
+    padding: 2em 5em;
+    /* display: flex;
+    flex-wrap: wrap;
+    align-content: center; */
+}
+
+.site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.site-nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-nav ul li {
+    display: inline-block;
+    margin-right: 1.5em;
+}
+
+.site-nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    padding-right: 5em;
+}
+
+.wrapper input {
+    border: none;
+}
+
+.search .searchButton {
+    float: right;
+    padding: 0.2em;
+    width: 4em;
+    color: white;
+    background-color: rgb(182, 175, 175);
+    border: none;
+    cursor: pointer;
+}
+
+.search-field {
+    width: 20em;
+    padding: 0.2em;
+    border: 2px solid rgb(182, 175, 175);
+}
+
+.my-acc i {
+    color: white;
+}
+
+.wrapper .my-acc a{
+    color: white;
+    text-decoration: none;
+    margin-left: 0.3em;
+}
+
+.categories {
+    margin-right: 2em;
+}
+
+.categories ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.categories ul li { 
+    flex: 0 1 20%;
+    list-style: none;
+    text-align: center;
+}
+
+.categories ul li img {
+    width: 18em;
+    height: 18em;
+}
+
+.categories ul li a {
+    text-decoration: none;
+    color: rgb(128, 129, 132);
+}
+
+.main-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.advertisement {
+    padding-top: 2em;
+}
+
+.advertisement h1 {
+    color: rgb(249, 55, 0);
+}
+
+.advertisement p {
+    color: rgb(128, 129, 132);
+}
+
+.advertisement a {
+    color: white;
+    padding: 0.9em;
+    border-radius: 0.3em;
+    background-color: rgb(249, 55, 0);
+    text-decoration: none;
+}
+
+.pic-wrapper {
+    display: flex;
+    width: 60%;
+}
+
+.advertisement-img {
+    width: 49em;
+    height: 25em;
+}
+
+.site-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 3em;
+    width: 95%;
+}
+
+.site-footer * {
+    color: rgb(128, 128, 128);
+}
+
+
+.site-footer .left ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2em;
+}
+
+.site-footer .left ul li {
+    display: inline-block;
+    margin-right: 1.5em;
+    list-style: none;
+}
+
+.site-footer .left ul li a{
+    text-decoration: none;
+}
+
+.site-footer .right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 52%;
+}
+
+.site-footer .right .contact {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.site-footer .right button {
+    border-radius: 0.3em;
+    border: none;
+    display: inline-block;
+    width: 10em;
+    height: 2em;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3em;
+    list-style: none;
+}
+
+.icons ul li {
+    display: inline-block;
+    padding-right: 1.5em;
+}
+
+.icons i {
+    color: rgb(128, 128, 128);
+    font-size: 1.5em;
+    padding-right: 0.5em;
+}
+
+.offers {
+    background-color: rgb(202, 195, 195);
+    padding: 2em 5em;
+    margin-left: 5em;
+    margin-bottom: 2em;
+    width: 87%;
+}
+
+.offers p {
+    padding: 0;
+}
+
+.offers ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.offers ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.offers ul li img {
+    width: 5em;
+    height: 5em;
+    align-self: center;
+}

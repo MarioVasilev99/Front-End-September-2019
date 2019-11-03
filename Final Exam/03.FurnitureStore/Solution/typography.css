@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+
+html {
+    font: 16px/1.5 'Noto Sans JP', sans-serif;
+}
+
+body, form, input, textarea, option, select, button {
+    font: inherit;
+}
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: normal;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1 {font-size: 2.6em;}
+h2 {font-size: 2.0em;}
+h3 {font-size: 1.6em;}
+h4 {font-size: 1.4em;}
+h5 {font-size: 1.2em;}
+h6 {font-size: 1.0em;}
+
+blockquote {
+    padding: 0 2.5em;
+    border-left-color: rgb(221,221,221);
+    margin-bottom: 1.5em;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+blockquote p:last-child {
+    padding-bottom: 0;
+}
+
+blockquote p.author {
+    text-align: right;
+}
