@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(238,238,238);
+    max-width: 120em;
+    margin: 0 auto;
+}
+
+.gallery li {
+    border: 0.4rem solid black;
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.gallery img {
+    width: 600px;
+}

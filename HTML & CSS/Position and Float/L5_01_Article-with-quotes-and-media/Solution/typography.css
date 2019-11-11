@@ -1,0 +1,58 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+body, form, input, textarea, option, select, button {
+    font: inherit;
+}
+
+p, ul, ol {
+    padding-bottom: 1.0em;
+}
+
+ul, ol {
+    padding-left: 2.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.0rem;
+    font-weight: normal;
+    font-family: Georgia, serif;
+}
+
+h1 {font-size: 2.4em;}
+h2 {font-size: 2.0em;}
+h3 {font-size: 1.6em;}
+h4 {font-size: 1.4em;}
+h5 {font-size: 1.2em;}
+h6 {font-size: 1.0em;}
+
+blockquote {
+    padding: 0em 3em 1.5em 2.5em;
+    border-left: 4px solid rgb(221,221,221);
+    margin-left: 2.5em;
+    margin-bottom: 1.5em;
+    vertical-align: top;
+}
+
+blockquote p {
+    font-style: italic;
+    color: #4a4a4a;
+}
+
+blockquote p:last-child {
+    padding-bottom: 0;
+}
+
+blockquote p.author {
+    text-align: right;
+}
+
+.site-title {
+    display: inline-block;
+    font-size: 2.6em;
+    font-weight: bold;
+    text-transform: uppercase;
+}

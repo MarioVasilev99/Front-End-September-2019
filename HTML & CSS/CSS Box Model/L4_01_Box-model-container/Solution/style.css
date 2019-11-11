@@ -1,0 +1,9 @@
+.container {
+    background :rgb(64, 224, 208);
+    border: 5px solid #000;
+    border-radius: 0.5em;
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin: 10em auto;
+}
