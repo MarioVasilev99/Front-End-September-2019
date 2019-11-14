@@ -1,0 +1,16 @@
+body {
+    max-width: var(--layout-width, 60em);
+    margin: 0 auto;
+}
+
+p {
+    font-size: var(--p-size, 16px);
+}
+
+h1 {
+    font-size: var(--h1-size, 30px);
+}
+
+h3 {
+    font-size: var(--h3-size, 20px);
+}
