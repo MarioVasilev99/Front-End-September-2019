@@ -1,0 +1,11 @@
+:root {
+    --font-size: 20px;
+    --font-line-height: 1.5em;
+    --font-family-main: Verdana, sans-serif;
+
+    --layout-width: 60em;
+    --layout-padding-b: 1.5em;
+
+    --all-content-font: PT Sans;
+    --headings-font: 'PT Serif';
+}

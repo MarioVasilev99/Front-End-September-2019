@@ -1,0 +1,19 @@
+body {
+    max-width: var(--layout-width, 60em);
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
